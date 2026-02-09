@@ -20,3 +20,9 @@ const myPromise = new promise((resolve,reject)=>{
 myPromise.then((msg) =>console.log(msg))
 .catch((error)=>console.log("some error occured."))
 //console.log(myPromise)
+
+constf1 = async() =>{
+    const msg = await myPromise;
+    console.log(msg);
+}
+f1();
