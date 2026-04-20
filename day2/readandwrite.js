@@ -38,4 +38,4 @@ console.log("after read");
 
 console.log("Before append");
 appendFileSync("./example.txt","This is the data written throygh sync function:'appendFileSync'");
-console.log("after append");
+console.log("after append"); 
